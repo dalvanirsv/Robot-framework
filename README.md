@@ -5,7 +5,6 @@
 ## Running Tests
 
 
-> **run:** `k6 run script.js` 
 
 ## Support this project
 
