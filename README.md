@@ -1,4 +1,4 @@
-# Projetc with Robot-framework using Python
+# Projetc with Robot-Framework using Python
 
 ## Requirement
 - python3                        3.8.10
@@ -9,8 +9,13 @@
 + robotframework-requests        0.9.5
 __
 ## Installation
-windowns: installatiion 
-
+### Linux:
+- sudo apt install python3-pip
+* sudo pip3 install robotframework
++ pip install --upgrade robotframework-seleniumlibrary
+- pip install robotframework-requests
++ npm install chromedriver -g
+__
 ## Running Tests
 ..
 
