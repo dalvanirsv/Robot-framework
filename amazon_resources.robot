@@ -23,3 +23,5 @@ Entrar no menu "Eletrônicos"
 
 Verificar se aparece a frase "Eletrônicos e Tecnologia"
     Wait Until Page Contains    text=${texto_header_eletronicos}
+
+Verificar se o título da página fica "Eletricos e Tecnologia | Amazon.com.br"
