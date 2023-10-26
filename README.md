@@ -1,4 +1,4 @@
-# Projetc with Robot-Framework using Python
+# Projet Robot-Framework using Python
 
 ## Requirement
 - python3                        3.8.10
