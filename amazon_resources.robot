@@ -11,8 +11,9 @@ Abrir o navegador
     Open Browser    browser=chrome
     Maximize Browser Window
 
-# fechar o navegador
-#     Close Browser
+ fechar o navegador
+    Capture Page Screenshot
+    Close Browser
 
 Acessar a home page do site amazon.com.br
     Go To    url=${url}    
@@ -31,4 +32,12 @@ Verificar se o título da página fica "${titulo}"
 
 Verificar se aparece a categoria "${categoria_nome}"
     Element Should Be Visible    locator=//a[@aria-label='${categoria_nome}']
-   
+
+Digitar o nome do produtoo "${produto}" no campo de pesquisa
+    Input Text    locator=twotabsearchtextbox    text=${produto}
+
+Clicar no botão de pesquisa
+    Click Element    locator=nav-search-submit-button
+
+Verificar o resultado da pesquisa, se está listando o produto "${produto}"
+    Wait Until Element Is Visible    locator=(//h2[@class='a-size-mini a-spacing-none a-color-base s-line-clamp-4'][contains(.,'${produto}')])[1]
