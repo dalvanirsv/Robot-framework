@@ -8,7 +8,7 @@
 * robotframework-seleniumlibrary 6.1.2 
 + robotframework-requests        0.9.5
 ## Installation
-### Linux:
+### Linux
 - sudo apt install python3-pip
 * sudo pip3 install robotframework
 + pip install --upgrade robotframework-seleniumlibrary
