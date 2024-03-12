@@ -33,7 +33,7 @@ Verificar se o título da página fica "${titulo}"
 Verificar se aparece a categoria "${categoria_nome}"
     Element Should Be Visible    locator=//a[@aria-label='${categoria_nome}']
 
-Digitar o nome do produtoo "${produto}" no campo de pesquisa
+Digitar o nome do produto "${produto}" no campo de pesquisa
     Input Text    locator=twotabsearchtextbox    text=${produto}
 
 Clicar no botão de pesquisa

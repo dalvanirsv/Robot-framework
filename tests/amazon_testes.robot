@@ -22,7 +22,17 @@ Caso de teste 01 - Acesso ao menu "Eletrônicos"
     [Documentation]    esse site verifica a busca de um produto
     [Tags]             busca_produtos    lista_busca
     Acessar a home page do site amazon.com.br
-    Digitar o nome do produtoo "Xbox Series S" no campo de pesquisa
+    Digitar o nome do produto "Xbox Series S" no campo de pesquisa
     Clicar no botão de pesquisa
     Verificar o resultado da pesquisa, se está listando o produto "Console Xbox Series X"
+
+Caso de Teste 03 - Adicionar Produto no Carrinho
+    [Documentation]    Esse teste verifica a adição de um produto no carrinho de compras
+    [Tags]             adicionar_carrinho
+    Acessar a home page do site Amazon.com.br
+    Digitar o nome do produto "Xbox Series S" no campo de pesquisa
+    Clicar no botão de pesquisa
+    Verificar o resultado da pesquisa se está listando o produto "Console Xbox Series S"
+    Adicionar o produto "Console Xbox Series S" no carrinho
+    Verificar se o produto "Console Xbox Series S" foi adicionado com sucesso  
     
